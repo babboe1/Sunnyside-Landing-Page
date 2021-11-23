@@ -13,20 +13,20 @@ if (window.innerWidth > 767) {
 	IMAGE2.innerHTML = `
    <img
       src="/images/desktop/image-stand-out.jpg"
-		width="100%" alt=""
+		width="100%" height="100%" alt=""
    />
    `;
 	IMAGE3.innerHTML = `
    <div >
 	   <img
 		src="/images/desktop/image-gallery-milkbottles.jpg"
-		alt="" width="100%"
+		alt="" width="100%" height="100%"
 		/>
 	</div>
 	<div>
 	   <img
 		src="/desktop/mobile/image-gallery-orange.jpg"
-		alt="" width="100%"
+		alt="" width="100%" height="100%"
 		/>
 	</div>
    `;
@@ -34,13 +34,13 @@ if (window.innerWidth > 767) {
    <div >
 	   <img
 		src="/images/desktop/image-gallery-cone.jpg"
-		alt="" width="100%"
+		alt="" width="100%" height="100%"
 		/>
 	</div>
 	<div>
 	   <img
 		src="/images/desktop/image-gallery-sugar-cubes.jpg"
-		alt="" width="100%"
+		alt="" width="100%" height="100%"
 		/>
 	</div>
    `;
