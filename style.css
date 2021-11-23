@@ -1,0 +1,184 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Barlow', sans-serif;
+	font-size: 18px;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+#parent {
+	width: 100%;
+}
+.HeaderBox {
+	background: url(/images/mobile/image-header.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 2rem 1.5rem;
+}
+.HeaderTop {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 80px;
+}
+.MenuBtn {
+	display: none;
+}
+.HeaderText {
+	text-align: center;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: 700;
+	font-family: 'Fraunces', serif;
+}
+.ArrowDown {
+	text-align: center;
+	padding: 3rem 0 4rem;
+}
+
+.ContentBox {
+	padding: 3rem 1.5rem;
+	text-align: center;
+}
+.TitleText {
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'Fraunces', serif;
+}
+.TextContent {
+	color: hsl(232, 10%, 55%);
+	padding: 2rem 0;
+}
+.BigText {
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
+	font-size: 16px;
+}
+.BigText:hover{
+   text-decoration: underline;
+   text-decoration-thickness:3px ;
+   text-decoration-color: yellow;
+}
+.FruitBox1 {
+	background: url(/images/mobile/image-graphic-design.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: hsl(167, 40%, 24%);
+}
+.FruitBox2 {
+	background: url(/images/mobile/image-photography.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: hsl(198, 62%, 26%);
+}
+.FruitBoxInner {
+	padding: 20rem 0 4rem;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.FruitBoxTitle {
+	font-size: 30px;
+	padding: 2rem;
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
+}
+.Testimony {
+	text-align: center;
+	padding: 1.5rem 2rem;
+}
+.TestimonyTitle {
+	padding: 1.5rem 0 1.5rem;
+	color: #a5a5a5;
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
+	font-size: 18px;
+}
+.PhotoBox {
+	padding: 1.5rem;
+}
+.PhotoBox img {
+	border-radius: 50%;
+	max-width: 60px;
+}
+.PhotoBoxText {
+	color: #5f6064;
+	font-size: 16px;
+	font-weight: 700;
+}
+.Name {
+	color: black;
+	font-weight: 900;
+	font-family: 'Fraunces', serif;
+   padding: 1.5rem 0 .5rem;
+}
+.occupation{
+   font-size: 12px;
+   color: #afafaf;
+}
+.ImageBox {
+	display: flex;
+	margin-bottom: -5px;
+}
+.Footer {
+	text-align: center;
+	background-color: #90d4c5;
+	padding: 1.5rem;
+}
+.FooterBigText {
+	color: hsl(168, 34%, 41%);
+	font-weight: 900;
+	font-size: 30px;
+	padding: 1.5rem 0 2.5rem;
+}
+.FooterContent {
+	display: flex;
+	justify-content: space-between;
+	color: #4e9283;
+	font-size: 16px;
+	font-weight: 700;
+	max-width: 250px;
+	margin: auto;
+}
+.FooterContent p:hover{
+   color: #fff;
+}
+.FooterIcon {
+	display: flex;
+	justify-content: space-between;
+	max-width: 10rem;
+	margin: auto;
+	padding: 4rem 0 1.5rem;
+}
+.FooterIcon img:hover{
+   cursor: pointer;
+   background-color: #fff;
+}
+
+@media screen and (min-width:480px) {
+   .HeaderText{
+      font-size:3rem;
+   }
+   .ArrowDown{
+      padding: 4rem 0 10rem;
+   }
+   .TitleText{
+      font-size: 2.5rem;
+   }
+   .FruitBoxInner{
+      padding-top: 25rem;
+   }
+   .FruitBoxTitle{
+      font-size: 2rem;
+   }
+   .FruitBoxInner p{
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+   }
+   .PhotoBox img{
+      max-width: 100px;
+   }
+}
