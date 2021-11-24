@@ -7,7 +7,7 @@ if (window.innerWidth > 767) {
 	IMAGE1.innerHTML = `
    <img
       src="/images/desktop/image-transform.jpg"
-		width="100%" alt=""
+		width="100%" alt=""  height="100%"
    />
    `;
 	IMAGE2.innerHTML = `
@@ -25,7 +25,7 @@ if (window.innerWidth > 767) {
 	</div>
 	<div>
 	   <img
-		src="/desktop/mobile/image-gallery-orange.jpg"
+		src="/images/desktop/image-gallery-orange.jpg"
 		alt="" width="100%" height="100%"
 		/>
 	</div>
@@ -39,7 +39,7 @@ if (window.innerWidth > 767) {
 	</div>
 	<div>
 	   <img
-		src="/images/desktop/image-gallery-sugar-cubes.jpg"
+		src="/images/desktop/image-gallery-sugarcubes.jpg"
 		alt="" width="100%" height="100%"
 		/>
 	</div>
