@@ -246,11 +246,15 @@ body {
 		color: #fff;
 		font-size: 14px;
 	}
+   .menuBar div{
+      padding-left: 2rem;
+   }
 	.Contact {
 		padding: 1rem;
 		border-radius: 30px;
 		color: black;
 		background-color: #fff;
+      margin: unset;
 	}
 	.Contact:hover {
 		cursor: pointer;
