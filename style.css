@@ -30,6 +30,40 @@ body {
 .MenuBar {
 	display: none;
 }
+.MenuBar.visible {
+	position: absolute;
+	text-align: center;
+	color: #7e7d85;
+	font-weight: bold;
+	z-index: 100;
+	background: white;
+	border-radius: 10px;
+	width: 80%;
+	height: 300px;
+	padding: 2rem;
+	top: 10vh;
+	right: 10%;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	animation: fade-slide-in 0.3s ease-out forwards;
+}
+.Contact {
+	padding: 1rem;
+	border-radius: 30px;
+	color: black;
+	background-color: #fbd601;
+	max-width: 150px;
+	margin: 0 auto;
+	font-family: 'Fraunces', serif;
+	font-weight: bold;
+}
+.Contact:hover {
+	cursor: pointer;
+	background-color: #b9d3d0;
+	color: #892d35;
+}
 .HeaderText {
 	text-align: center;
 	color: white;
