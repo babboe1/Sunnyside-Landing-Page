@@ -41,7 +41,6 @@ body {
 	text-align: center;
 	padding: 3rem 0 4rem;
 }
-
 .ContentBox {
 	padding: 3rem 1.5rem;
 	text-align: center;
@@ -59,6 +58,14 @@ body {
 	font-family: 'Fraunces', serif;
 	font-weight: 900;
 	font-size: 16px;
+}
+.TextStyle {
+	border: 5px solid #fcefbb;
+	width: 100%;
+	max-width: 130px;
+	margin: auto;
+	margin-top: -8px;
+	border-radius: 20px;
 }
 .BigText:hover {
 	text-decoration: underline;
@@ -211,11 +218,11 @@ body {
 		color: black;
 		background-color: #fff;
 	}
-   .Contact:hover {
-      cursor: pointer;
-      background-color: rgb(232, 232, 232, 0.75);
-      color: white;
-   }
+	.Contact:hover {
+		cursor: pointer;
+		background-color: rgb(232, 232, 232, 0.75);
+		color: white;
+	}
 	.HeaderTop {
 		padding-bottom: 30px;
 	}
@@ -247,6 +254,11 @@ body {
 	}
 	.TitleText {
 		font-size: 1.5rem;
+	}
+	.TextStyle {
+		max-width: 115px;
+		margin: 0;
+		margin-top: -8px;
 	}
 	.FruitBox {
 		display: flex;
@@ -344,6 +356,9 @@ body {
 	}
 	.BigText {
 		font-size: 22px;
+	}
+	.TextStyle {
+		max-width: 160px;
 	}
 	.FruitBoxInner {
 		padding-top: 15rem;
