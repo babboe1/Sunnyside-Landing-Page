@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	font-family: 'Barlow', sans-serif;
 	font-size: 18px;
-   scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 * {
 	box-sizing: border-box;
@@ -13,6 +13,8 @@ body {
 }
 #parent {
 	width: 100%;
+	max-width: 1440px;
+	margin: auto;
 }
 .HeaderBox {
 	background: url(/images/mobile/image-header.jpg);
@@ -25,7 +27,7 @@ body {
 	justify-content: space-between;
 	padding-bottom: 80px;
 }
-.MenuBtn {
+.MenuBar {
 	display: none;
 }
 .HeaderText {
@@ -58,10 +60,10 @@ body {
 	font-weight: 900;
 	font-size: 16px;
 }
-.BigText:hover{
-   text-decoration: underline;
-   text-decoration-thickness:3px ;
-   text-decoration-color: yellow;
+.BigText:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-decoration-color: yellow;
 }
 .FruitBox1 {
 	background: url(/images/mobile/image-graphic-design.jpg);
@@ -114,15 +116,14 @@ body {
 	color: black;
 	font-weight: 900;
 	font-family: 'Fraunces', serif;
-   padding: 1.5rem 0 .5rem;
+	padding: 1.5rem 0 0.5rem;
 }
-.occupation{
-   font-size: 12px;
-   color: #afafaf;
+.occupation {
+	font-size: 12px;
+	color: #afafaf;
 }
 .ImageBox {
 	display: flex;
-	margin-bottom: -5px;
 }
 .Footer {
 	text-align: center;
@@ -144,8 +145,8 @@ body {
 	max-width: 250px;
 	margin: auto;
 }
-.FooterContent p:hover{
-   color: #fff;
+.FooterContent p:hover {
+	color: #fff;
 }
 .FooterIcon {
 	display: flex;
@@ -154,32 +155,227 @@ body {
 	margin: auto;
 	padding: 4rem 0 1.5rem;
 }
-.FooterIcon img:hover{
-   cursor: pointer;
-   background-color: #fff;
+.FooterIcon img:hover {
+	cursor: pointer;
+	background-color: #fff;
 }
 
-@media screen and (min-width:480px) {
-   .HeaderText{
-      font-size:3rem;
+@media screen and (min-width: 480px) {
+	.HeaderText {
+		font-size: 3rem;
+	}
+	.ArrowDown {
+		padding: 4rem 0 10rem;
+	}
+	.TitleText {
+		font-size: 2.5rem;
+	}
+	.FruitBoxInner {
+		padding-top: 25rem;
+	}
+	.FruitBoxTitle {
+		font-size: 2rem;
+	}
+	.FruitBoxInner p {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+	.PhotoBox img {
+		max-width: 100px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.ImageLogo {
+		padding-top: 20px;
+	}
+	.HeaderBox {
+		background: url(/images/desktop/image-header.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		padding: 2rem 1.5rem;
+	}
+	.MenuBtn {
+		display: none;
+	}
+	.MenuBar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 300px;
+		color: #fff;
+		font-size: 14px;
+	}
+	.Contact {
+		padding: 1rem;
+		border-radius: 30px;
+		color: black;
+		background-color: #fff;
+	}
+   .Contact:hover {
+      cursor: pointer;
+      background-color: rgb(232, 232, 232, 0.75);
+      color: white;
    }
-   .ArrowDown{
-      padding: 4rem 0 10rem;
-   }
-   .TitleText{
-      font-size: 2.5rem;
-   }
-   .FruitBoxInner{
-      padding-top: 25rem;
-   }
-   .FruitBoxTitle{
-      font-size: 2rem;
-   }
-   .FruitBoxInner p{
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-   }
-   .PhotoBox img{
-      max-width: 100px;
-   }
+	.HeaderTop {
+		padding-bottom: 30px;
+	}
+	.HeaderText {
+		font-size: 2rem;
+	}
+	.ArrowDown {
+		padding: 1rem 0 5rem;
+	}
+	.ContentBox {
+		padding: 3rem 3.5rem;
+		text-align: start;
+	}
+	.TextContent {
+		padding: 1rem 0;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.TransformContent {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.StandoutContent {
+		display: flex;
+	}
+	.TransformContent div,
+	.StandoutContent div {
+		width: 50%;
+	}
+	.TitleText {
+		font-size: 1.5rem;
+	}
+	.FruitBox {
+		display: flex;
+	}
+	.FruitBox1,
+	.FruitBox2 {
+		width: 50%;
+		height: 100%;
+		padding-bottom: 1rem;
+	}
+	.FruitBox1 {
+		background: url(/images/desktop/image-graphic-design.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.FruitBox2 {
+		background: url(/images/desktop/image-photography.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.FruitBoxInner {
+		padding-top: 170px;
+		padding-bottom: 1rem;
+		font-size: 14px;
+	}
+	.FruitBoxTitle {
+		font-size: 26px;
+		padding: 1rem;
+	}
+	.FruitBoxInner p {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+	.TestimonyContent {
+		display: flex;
+		padding: 0 2rem;
+	}
+	.PhotoBox img {
+		max-width: 75px;
+	}
+	.PhotoBoxText {
+		color: #5f6064;
+		font-size: 14px;
+		font-weight: 700;
+	}
+	.FooterImageBox {
+		display: flex;
+	}
+	.ImageBox {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.MenuBar {
+		width: 400px;
+		font-size: 18px;
+	}
+	.ArrowDown {
+		padding: 6rem 0 7rem;
+	}
+	.HeaderText {
+		font-size: 2.5rem;
+	}
+	.TitleText {
+		font-size: 2.5rem;
+	}
+	.TextContent {
+		font-size: 15px;
+	}
+	.ContentBox {
+		padding: 5rem 3.5rem;
+	}
+	.FruitBoxTitle {
+		font-size: 38px;
+	}
+	.FruitBoxInner p {
+		padding-top: 3rem;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.HeaderText {
+		font-size: 3.5rem;
+		padding-top: 4.5rem;
+	}
+	.ArrowDown {
+		padding: 8rem 0 12rem;
+	}
+	.TitleText {
+		font-size: 3.5rem;
+	}
+	.TextContent {
+		font-size: 23px;
+		padding: 3rem 0;
+		line-height: 1.5rem;
+	}
+	.BigText {
+		font-size: 22px;
+	}
+	.FruitBoxInner {
+		padding-top: 15rem;
+		font-size: 25px;
+	}
+	.FruitBoxTitle {
+		font-size: 53px;
+	}
+	.TestimonyTitle {
+		font-size: 35px;
+	}
+	.PhotoBox img {
+		max-width: 100px;
+	}
+	.PhotoBoxText {
+		font-size: 20px;
+		padding: 0 1rem;
+	}
+	.Name {
+		font-size: 1.5rem;
+	}
+	.occupation {
+		font-size: 18px;
+	}
+	.FooterBigText {
+		font-size: 2.5rem;
+	}
+	.FooterContent {
+		font-size: 25px;
+		max-width: 400px;
+	}
+	.FooterIcon {
+		max-width: 15rem;
+	}
 }
