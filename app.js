@@ -2,7 +2,7 @@ const IMAGE1 = document.querySelector('.ImageTransform');
 const IMAGE2 = document.querySelector('.ImageStandout');
 const IMAGE3 = document.getElementById('image_box1');
 const IMAGE4 = document.getElementById('image_box2');
-const MENU_BTN = document.querySelector('.MenuBtn')
+const MENU_BTN = document.querySelector('.MenuBtn');
 
 if (window.innerWidth > 767) {
 	IMAGE1.innerHTML = `
@@ -31,7 +31,7 @@ if (window.innerWidth > 767) {
 		/>
 	</div>
    `;
-   IMAGE4.innerHTML = `
+	IMAGE4.innerHTML = `
    <div >
 	   <img
 		src="/images/desktop/image-gallery-cone.jpg"
@@ -47,6 +47,6 @@ if (window.innerWidth > 767) {
    `;
 }
 const MenuBtnHandler = () => {
-   document.querySelector('.MenuBar').classList.toggle('visible')
+	document.querySelector('.MenuBar').classList.toggle('visible');
 };
-MENU_BTN.addEventListener('click', MenuBtnHandler)
+MENU_BTN.addEventListener('click', MenuBtnHandler);
