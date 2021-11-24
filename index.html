@@ -24,32 +24,37 @@
 				color: hsl(228, 45%, 44%);
 			}
 		</style>
+      <script src="/app.js" defer></script>
 	</head>
 	<body>
 		<div id="parent">
 			<div class="HeaderBox">
 				<div class="HeaderTop">
-					<div><img src="/images/logo.svg" alt="" /></div>
-					<div class="MenuBtn">
-						<div>
+					<div class="ImageLogo">
+						<img src="/images/logo.svg" alt="" />
+					</div>
+					<div class="Menu">
+						<div class="MenuBar">
 							<div><p>About</p></div>
 							<div><p>Services</p></div>
 							<div><p>Projects</p></div>
-							<div><p>CONTACT</p></div>
+							<div class="Contact"><p>CONTACT</p></div>
 						</div>
 					</div>
-					<div><img src="/images/icon-hamburger.svg" alt="" /></div>
+					<div class="MenuBtn">
+						<img src="/images/icon-hamburger.svg" alt="" />
+					</div>
 				</div>
 				<div class="HeaderText"><p>WE ARE CREATIVES</p></div>
 				<div class="ArrowDown">
 					<img src="/images/icon-arrow-down.svg" alt="" />
 				</div>
 			</div>
-			<div class="">
+			<div class="TransformContent">
 				<div class="ImageTransform">
 					<img
 						src="/images/mobile/image-transform.jpg"
-						width="100%"
+						width="100%" height="100%"
 						alt=""
 					/>
 				</div>
@@ -63,11 +68,11 @@
 					<p class="BigText">LEARN MORE</p>
 				</div>
 			</div>
-			<div class="">
+			<div class="StandoutContent">
 				<div class="ImageStandout">
 					<img
 						src="/images/mobile/image-stand-out.jpg"
-						width="100%"
+						width="100%" height="100%"
 						alt=""
 					/>
 				</div>
@@ -81,7 +86,7 @@
 					<p class="BigText">LEARN MORE</p>
 				</div>
 			</div>
-			<div class="">
+			<div class="FruitBox">
 				<div class="FruitBox1">
 					<div class="FruitBoxInner">
 						<div class="FruitBoxTitle"><p>Graphic Design</p></div>
@@ -107,9 +112,12 @@
 				</div>
 			</div>
 			<div class="Testimony">
-				<div class="TestimonyTitle"><p>CLIENT TESTIMONIALS</p></div>
-				<div>
-					<div class="PhotoBox"><img src="/images/image-emily.jpg" alt="" width= "100%" /></div>
+				<div class="TestimonyTitle"><p>CLIENT TESTIMONIALS</p></div><br/>
+				<div class="TestimonyContent">
+               <div class="TestimonyBox">
+					<div class="PhotoBox">
+						<img src="/images/image-emily.jpg" alt="" width="100%" />
+					</div>
 					<div class="PhotoBoxText">
 						<p>
 							We put our trust in Sunnyside and they delivered, making
@@ -121,8 +129,10 @@
 					</div>
 					<div class="occupation"><p>marketing Director</p></div>
 				</div>
-				<div>
-					<div class="PhotoBox"><img src="/images/image-thomas.jpg" alt="" width= "100%" /></div>
+				<div class="TestimonyBox">
+					<div class="PhotoBox">
+						<img src="/images/image-thomas.jpg" alt="" width="100%" />
+					</div>
 					<div class="PhotoBoxText">
 						<p>
 							Sunnyside’s enthusiasm coupled with their keen interest in
@@ -135,8 +145,10 @@
 					</div>
 					<div class="occupation"><p>Chief Operating Offficer</p></div>
 				</div>
-				<div>
-					<div class="PhotoBox"><img src="/images/image-jennie.jpg" alt="" width= "100%" /></div>
+				<div class="TestimonyBox">
+					<div class="PhotoBox">
+						<img src="/images/image-jennie.jpg" alt="" width="100%" />
+					</div>
 					<div class="PhotoBoxText">
 						<p>
 							Incredible end result! Our sales increased over 400% when
@@ -148,36 +160,37 @@
 					</div>
 					<div class="occupation"><p>Business Owner</p></div>
 				</div>
+            </div>
 			</div>
-			<div class="">
-				<div class="ImageBox">
-					<div>
+			<div class="FooterImageBox">
+				<div class="ImageBox" id="image_box1">
+					<div >
 						<img
 							src="/images/mobile/image-gallery-milkbottles.jpg"
 							alt=""
-							width="100%"
+							width="100%" height="100%"
 						/>
 					</div>
 					<div>
 						<img
 							src="/images/mobile/image-gallery-orange.jpg"
 							alt=""
-							width="100%"
+							width="100%" height="100%"
 						/>
 					</div>
 				</div>
-				<div class="ImageBox">
+				<div class="ImageBox" id="image_box2">
 					<div>
 						<img
 							src="/images/mobile/image-gallery-cone.jpg"
 							alt=""
-							width="100%"
+							width="100%" height="100%"
 						/>
 					</div>
 					<div>
 						<img
 							src="/images/mobile/image-gallery-sugar-cubes.jpg"
-							width="100%"
+							width="100%" height="100%"
 							alt=""
 						/>
 					</div>
@@ -205,4 +218,5 @@
 			>. Coded by <a href="https://github.com/babboe1">Babboe1</a>.
 		</div>
 	</body>
+   
 </html>
