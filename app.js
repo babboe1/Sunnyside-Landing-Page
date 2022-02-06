@@ -15,6 +15,10 @@ const StopScroll = () => {
 	document.body.classList.toggle('StopScroll');
 };
 
+const BackDropHandler = () => {
+
+};
+
 if (window.innerWidth > 767) {
 	IMAGE1.innerHTML = `
    <img
