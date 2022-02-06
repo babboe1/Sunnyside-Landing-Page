@@ -7,6 +7,10 @@ const BACKDROP = document.getElementById('backdrop');
 
 
 
+const BackDrop = () => {
+	BACKDROP.classList.toggle('visible');
+};
+
 if (window.innerWidth > 767) {
 	IMAGE1.innerHTML = `
    <img
