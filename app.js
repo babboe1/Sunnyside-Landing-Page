@@ -17,7 +17,7 @@ const StopScroll = () => {
 
 const BackDropHandler = () => {
 	BackDrop();
-
+	StopScroll();
 };
 
 if (window.innerWidth > 767) {
