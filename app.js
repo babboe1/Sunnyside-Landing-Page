@@ -63,6 +63,7 @@ if (window.innerWidth > 767) {
    `;
 }
 const MenuBtnHandler = () => {
+   BackDropHandler();
 	document.querySelector('.MenuBar').classList.toggle('visible');
 };
 MENU_BTN.addEventListener('click', MenuBtnHandler);
