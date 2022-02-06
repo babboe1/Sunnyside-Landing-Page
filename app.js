@@ -16,6 +16,7 @@ const StopScroll = () => {
 };
 
 const BackDropHandler = () => {
+	BackDrop();
 
 };
 
