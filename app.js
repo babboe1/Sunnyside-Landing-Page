@@ -66,3 +66,5 @@ const MenuBtnHandler = () => {
 	document.querySelector('.MenuBar').classList.toggle('visible');
 };
 MENU_BTN.addEventListener('click', MenuBtnHandler);
+BACKDROP.addEventListener('click', BackDropHandler);
+
