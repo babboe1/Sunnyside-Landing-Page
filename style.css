@@ -11,6 +11,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
+.StopScroll {
+	height: 100vh;
+	overflow: hidden;
+}
 #parent {
 	width: 100%;
 	max-width: 1440px;
