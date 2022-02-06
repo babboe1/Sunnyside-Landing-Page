@@ -3,6 +3,9 @@ const IMAGE2 = document.querySelector('.ImageStandout');
 const IMAGE3 = document.getElementById('image_box1');
 const IMAGE4 = document.getElementById('image_box2');
 const MENU_BTN = document.querySelector('.MenuBtn');
+const BACKDROP = document.getElementById('backdrop');
+
+
 
 if (window.innerWidth > 767) {
 	IMAGE1.innerHTML = `
