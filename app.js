@@ -11,6 +11,10 @@ const BackDrop = () => {
 	BACKDROP.classList.toggle('visible');
 };
 
+const StopScroll = () => {
+	document.body.classList.toggle('StopScroll');
+};
+
 if (window.innerWidth > 767) {
 	IMAGE1.innerHTML = `
    <img
