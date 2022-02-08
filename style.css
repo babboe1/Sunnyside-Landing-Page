@@ -31,7 +31,7 @@ body {
 	pointer-events: all;
 }
 .hidden {
-   display: none;
+	display: none;
 }
 #parent {
 	width: 100%;
