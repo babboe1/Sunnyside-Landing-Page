@@ -141,7 +141,7 @@ body {
 	text-decoration-color: yellow;
 }
 .FruitBox1 {
-	background: url(/images/mobile/image-graphic-design.jpg);
+	background: url(./images/mobile/image-graphic-design.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: hsl(167, 40%, 24%);
