@@ -30,6 +30,9 @@ body {
 	display: block;
 	pointer-events: all;
 }
+.hidden {
+   display: none;
+}
 #parent {
 	width: 100%;
 	max-width: 1440px;
