@@ -18,6 +18,15 @@ const StopScroll = () => {
 const BackDropHandler = () => {
 	BackDrop();
 	StopScroll();
+   if (CLOSE_BTN.classList.contains('hidden')) {
+		MENU_BTN.classList.add('hidden');
+		CLOSE_BTN.classList.remove('hidden');
+	} else if (MENU_BTN.classList.contains('hidden')) {
+		MENU_BTN.classList.remove('hidden');
+		CLOSE_BTN.classList.add('hidden');
+   }
+   document.querySelector('.MenuBar').classList.toggle('visible');
+   
 };
 
 if (window.innerWidth > 767) {
