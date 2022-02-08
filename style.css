@@ -347,7 +347,7 @@ body {
 		background-repeat: no-repeat;
 	}
 	.FruitBox2 {
-		background: url(/images/desktop/image-photography.jpg);
+		background: url(./images/desktop/image-photography.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 	}
