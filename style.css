@@ -264,7 +264,7 @@ body {
 		padding-top: 20px;
 	}
 	.HeaderBox {
-		background: url(/images/desktop/image-header.jpg);
+		background: url(./images/desktop/image-header.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		padding: 2rem 1.5rem;
