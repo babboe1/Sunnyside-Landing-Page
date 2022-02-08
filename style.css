@@ -75,6 +75,14 @@ body {
 	justify-content: space-between;
 	animation: fade-slide-in 0.3s ease-out forwards;
 }
+@keyframes fade-slide-in {
+	from {
+		transform: translateY(-5rem);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
 .Contact {
 	padding: 1rem;
 	border-radius: 30px;
