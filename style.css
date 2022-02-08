@@ -342,7 +342,7 @@ body {
 		padding-bottom: 1rem;
 	}
 	.FruitBox1 {
-		background: url(/images/desktop/image-graphic-design.jpg);
+		background: url(./images/desktop/image-graphic-design.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 	}
