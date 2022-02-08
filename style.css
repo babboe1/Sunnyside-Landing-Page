@@ -39,7 +39,7 @@ body {
 	margin: auto;
 }
 .HeaderBox {
-	background: url(/images/mobile/image-header.jpg);
+	background: url(./images/mobile/image-header.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	padding: 2rem 1.5rem;
