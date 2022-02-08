@@ -147,7 +147,7 @@ body {
 	color: hsl(167, 40%, 24%);
 }
 .FruitBox2 {
-	background: url(/images/mobile/image-photography.jpg);
+	background: url(./images/mobile/image-photography.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: hsl(198, 62%, 26%);
