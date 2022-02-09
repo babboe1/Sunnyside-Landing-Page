@@ -2,7 +2,7 @@ const IMAGE1 = document.querySelector('.ImageTransform');
 const IMAGE2 = document.querySelector('.ImageStandout');
 const IMAGE3 = document.getElementById('image_box1');
 const IMAGE4 = document.getElementById('image_box2');
-const MENU_BTN = document.querySelector('.MenuBtn');
+const [MENU_BTN, CLOSE_BTN] = document.querySelectorAll('.MenuBtnIcon');
 const BACKDROP = document.getElementById('backdrop');
 
 
