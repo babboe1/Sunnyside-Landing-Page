@@ -45,7 +45,7 @@ if (window.innerWidth > 767) {
 	IMAGE3.innerHTML = `
    <div >
 	   <img
-		src="/images/desktop/image-gallery-milkbottles.jpg"
+		src="./images/desktop/image-gallery-milkbottles.jpg"
 		alt="" width="100%" height="100%"
 		/>
 	</div>
