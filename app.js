@@ -32,7 +32,7 @@ const BackDropHandler = () => {
 if (window.innerWidth > 767) {
 	IMAGE1.innerHTML = `
    <img
-      src="/images/desktop/image-transform.jpg"
+      src="./images/desktop/image-transform.jpg"
 		width="100%" alt=""  height="100%"
    />
    `;
