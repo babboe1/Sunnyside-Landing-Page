@@ -38,7 +38,7 @@ if (window.innerWidth > 767) {
    `;
 	IMAGE2.innerHTML = `
    <img
-      src="/images/desktop/image-stand-out.jpg"
+      src="./images/desktop/image-stand-out.jpg"
 		width="100%" height="100%" alt=""
    />
    `;
