@@ -51,7 +51,7 @@ if (window.innerWidth > 767) {
 	</div>
 	<div>
 	   <img
-		src="/images/desktop/image-gallery-orange.jpg"
+		src="./images/desktop/image-gallery-orange.jpg"
 		alt="" width="100%" height="100%"
 		/>
 	</div>
