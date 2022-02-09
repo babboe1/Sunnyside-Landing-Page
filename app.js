@@ -59,7 +59,7 @@ if (window.innerWidth > 767) {
 	IMAGE4.innerHTML = `
    <div >
 	   <img
-		src="/images/desktop/image-gallery-cone.jpg"
+		src="./images/desktop/image-gallery-cone.jpg"
 		alt="" width="100%" height="100%"
 		/>
 	</div>
