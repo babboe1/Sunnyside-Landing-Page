@@ -17,7 +17,7 @@ const StopScroll = () => {
 
 const BackDropHandler = () => {
 	BackDrop();
-	StopScroll();
+   StopScroll();
    if (CLOSE_BTN.classList.contains('hidden')) {
 		MENU_BTN.classList.add('hidden');
 		CLOSE_BTN.classList.remove('hidden');
