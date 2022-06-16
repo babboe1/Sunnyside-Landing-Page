@@ -211,6 +211,10 @@ body {
 	font-size: 30px;
 	padding: 1.5rem 0 2.5rem;
 }
+.FooterBigText a{
+	text-decoration: none;
+	color: hsl(168, 34%, 41%);
+}
 .FooterContent {
 	display: flex;
 	justify-content: space-between;
